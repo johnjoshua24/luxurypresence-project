@@ -27,7 +27,7 @@ const Masonry = () => {
     offset: ["start end", "end end"],
   });
 
-  const OpacityAnimation = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
+  const OpacityAnimation = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const slideAnimationUp = useTransform(scrollYProgress, [0, 1], [100, 0]);
 
   return (

@@ -37,7 +37,7 @@ const Services = () => {
   });
 
   const OpacityAnimation = useTransform(scrollYProgress, [0, 1], [0, 1]);
-  const imagesOpacityAnimation = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
+  const imagesOpacityAnimation = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const slideAnimationUp = useTransform(scrollYProgress, [0, 1], [50, 0]);
 
   return (
