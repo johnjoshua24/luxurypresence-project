@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root{
+--primary-color: #1A1A40;
+--accent-color: #4682B4;
+--hover-color: #12122a;
+--text-color: #3E4E5E;
+--white-color: #FFFFFF;
+--muted-gray: #D9D9D9;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
