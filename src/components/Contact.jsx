@@ -289,7 +289,10 @@ const Contact = () => {
         </div>
       </form>
     </div>
+
   );
 };
 
 export default Contact;
+
+console.log("Google Maps API Key:", import.meta.env.VITE_MAP_API_KEY);
