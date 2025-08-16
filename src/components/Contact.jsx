@@ -264,7 +264,7 @@ const Contact = () => {
 
             {/* Conditionally render the map */}
             {mapLoaded ? (
-              <LoadScript googleMapsApiKey="AIzaSyDxusK8uwBQ6-_D0sxWicC2KFrmf0qM37o">
+              <LoadScript googleMapsApiKey={import.meta.env.VITE_MAP_API_KEY}>
                 <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
                   <Marker position={center} />
                 </GoogleMap>
