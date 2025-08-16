@@ -11,7 +11,7 @@ const Blog = () => {
   });
 
   const OpacityAnimation = useTransform(scrollYProgress, [0,1], [0.7,1]);
-    const slideAnimationUp = useTransform(scrollYProgress, [0,1], [50,0])
+    const slideAnimationUp = useTransform(scrollYProgress, [0,1], [-50,0])
 
   return (
     <div className="gallery-container flex flex-col justify-center items-center mt-10" id="gallery-section" ref={containerAnimationRef}>
