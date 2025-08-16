@@ -79,7 +79,7 @@ const Contact = () => {
   const OpacityAnimation = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const OpacityAnimation2 = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const slideAnimationUp = useTransform(scrollYProgress, [0, 1], [50, 0]);
-  const slideAnimationUp2 = useTransform(scrollYProgress, [0, 1], [150, 0]);
+  const slideAnimationUp2 = useTransform(scrollYProgress, [0, 1], [50, 0]);
   const slideAnimationleft = useTransform(scrollYProgress, [0, 1], [-50, 0]);
 
   return (
